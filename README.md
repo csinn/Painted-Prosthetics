@@ -7,6 +7,6 @@ Through raising awareness, we want to gather donations. Donations would be used 
 A website and a drawing app will be used to automate amputees requests for donations; donation offers across companies and individuals.
 
 ## How to get started?
-[TODO]
-[Link to beginners guide]([TODO])
+[TODO]  
+[Link to beginners guide]([TODO])  
 [Requirements document](https://docs.google.com/document/d/1itUVqBD-D1xnTppbh7iRPpIBFgap-kvM2X9uzIYXyxs/edit?usp=sharing)
