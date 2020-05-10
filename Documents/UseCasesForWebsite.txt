@@ -1,4 +1,12 @@
+User 
+
 - user wants to see the info page 
 - user wants to apply as artist 
 - user wants to donate 
 - user wants to have a prostictic worked on
+
+Admin 
+
+- wants to check the art which is submitted by artists who wants to work with this project
+
+
