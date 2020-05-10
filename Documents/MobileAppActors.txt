@@ -1,0 +1,17 @@
+Actors: Regular User, Artist, Admin
+
+Regular User - Draw on Digital Prosthetic, Browse Gallery, Contact Artists
+A regular user would use this app for fun, to enhance their creativity by drawing on the flattened surface of a prosthetic, or simply to browse the galleries without actually visiting the website.
+This would be a fun experience and ensure that the galleries would have a higher visibilty by being exposed to more individuals through the app.
+Amputees would fall under this category as well.
+An amputee might not necessarily use this app to look for prosthetics or artists, they could use this for fun as well, however, artworks could have their author's contact details displayed in the app, so
+an amputee would know who to contact in case they're interested in prosthetic. This could be their main platform (along with the website) for finding unique prosthetics made by professional artists.
+
+Artist - Draw on Digital Prosthetic, Browse Gallery, Post Artwork to Promotional Gallery
+An artist could use this app for the same reasons as a regular user, though it would be a great idea to allow artists to upload pictures of their artwork through the app which would be then displayed
+in the promotional gallery on the website. An artist could have an account with an "Artist" tag (these would be the individuals, who are approved by admins as real artists) and this could unlock additional
+functionality inside the app (posting to promotional gallery, etc.).
+
+Admin - Manage Galleries (and maybe Users?!)
+An admin would use this app to manage galleries, accept incoming pictures that people want to post to the promotional gallery (kind of a moderator role), and they could also manage artists as well.
+So if an artist wants to apply to become a "Professional Artist" on the site/app, an admin could have the power to grant this right to a given user or not (depending on their artwork and trustworthiness).
