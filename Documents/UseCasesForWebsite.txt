@@ -1,10 +1,23 @@
-User 
+Actors: Regular User, Artist, Admin
 
-- user wants to View info page, donate, request a prostetic or apply as a Artist 
+Regular User - View info page, View Gallery, Donate, RequestProstetic, Liking a Picture 
+A regular user would use this website for geting information or donate as amputee a prostetic or donate as a company.Also the regular user can visit the gallery and like one of the displayed art there.
+The visitor can also request that his/her prostetic is send to artist to make some art of it.
+- When the visitor wants to donate a protestic he/she fill in a form and the admin of the site would contact the visitor. 
+- When a company wants to donate a prostetic , also a form is filled in. 
+- A vistitor can goto the gallery page and if he/she likes a prostic which is turn into art by a artist, he/she can like it so the prostetic is displayed earlier on the gallery page. 
+
+Artist - Apply to be part of this project so the artist can paint a prostetic.
+An artist could use this website for the same reasons as a regular user, but also the artist can fill in a form and send two pictures of art the artist make so the admin can look if the artist is good enough to 
+paint a prostetic for a amputee or for the fun raising. 
+
+Admin - Manage Galleries. Manage request for artist or request from a amputee
+An admin would use this website to manage the open gallery, accept  or decline incoming pictures that people want to post to the promotional gallery (kind of a moderator role), and they could also manage artists as well.
+- an artist wants to apply to become a "Professional Artist" on the site/app, an admin could have the power to grant this right to a given user or not (depending on their artwork and trustworthiness).
+- Managing reques from a amputee means that  the admin sees the request and checked with a company who makes the prostetics if this is a real request. Also the admin sends a messages if the amputee or artist is chosen
+to be a part of this project or that the request is declined.
+- When a artist applies to be a part of the project, the admin looks if this is a proffesional artist and if the artist is good enough for this project.
 
 
-Admin 
-
-- wants to check the art which is submitted by artists who wants to work with this project
 
 
