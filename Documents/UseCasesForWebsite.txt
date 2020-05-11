@@ -1,9 +1,7 @@
 User 
 
-- user wants to see the info page 
-- user wants to apply as artist 
-- user wants to donate 
-- user wants to have a prostictic worked on
+- user wants to View info page, donate, request a prostetic or apply as a Artist 
+
 
 Admin 
 
