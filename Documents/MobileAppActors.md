@@ -14,7 +14,7 @@ Users would not apply or post images directly to the promotional gallery through
 Open the App - Opening the app will direct the user immediately to the "Galleries" section (1st option on the top menubar inside the app). The menubar would be visible all the time and thus users could navigate to
 different tabs.
 
-Go to Galleries - When a user navigated to another tab using the top menubar, they could navigate back to the "Galleries" section by tapping the corresponding button on the menubar.
+<b>Go to Galleries</b> - When a user navigated to another tab using the top menubar, they could navigate back to the "Galleries" section by tapping the corresponding button on the menubar.
 
 Select Gallery - Once a user is inside the "Galleries" section, they could pick from 2 galleries - "Public Gallery" and "Promotional Gallery". Both galleries would have the same features inside the app
 (liking, filtering), but posting to the "Promotional Gallery" could only be done by the admin (the admin would accept artwork from artists only through the website).
