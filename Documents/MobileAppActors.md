@@ -1,18 +1,17 @@
-# Actors: User
-
-## User
-Open the App, Go to Galleries, Select Gallery, Like Images, Share Image, Filter Images, Go to Drawing Screen, Select Canvas, Draw, Tap Drawing Options Menu, Select from Drawing Options Menu, Select Another Canvas,
-Undo, Redo, Share/Save to Device, Select From Right-hand Side Menu, Select Color, Change Color, Add Color to Palette, Select Brush, Change Brush Behaviour, Select Eraser, Change Eraser Behaviour,
-Select Color Palette, Remove Color from Palette, Save Palette, Load Palette, Delete Palette, Save Canvas, Go to Info Page, Apply to Become an Artist, Go to Website, Go to Contacts Webpage
+# Actors: User, Guest
 
 ## General Description of User:
 A user would use the app to collect information about this initiative, browse galleries, like, share, or filter artwork within them, to enhance their creativity or have fun using the drawing features the app provides,
 or to find redirects to the website where our logic centre is. They could share drawings they've made through the drawing menu, post them to facebook or other social media, or directly to our public gallery.
 Users would not apply or post images directly to the promotional gallery through the app. They would be redirected to the website in order to achieve these goals.
 
+## General Description of Guest:
+To be added...
+
 ## Use Cases:
-****Open the App**** - Opening the app will direct the user immediately to the "Galleries" section (1st option on the top menubar inside the app). The menubar would be visible all the time and thus users could navigate to
+****Open the App**** - Opening the app will direct the user to the "Galleries" section (1st option on the top menubar inside the app). The menubar would be visible all the time and thus users could navigate to
 different tabs.
+****Actors Involved: ****
 
 ****Go to Galleries**** - When a user navigated to another tab using the top menubar, they could navigate back to the "Galleries" section by tapping the corresponding button on the menubar.
 
