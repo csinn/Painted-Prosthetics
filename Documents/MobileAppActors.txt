@@ -1,8 +1,8 @@
 Actors: User
 
-User - Open the App, Go to Galleries, Select Gallery, Like Images, Share Image, Filter Images, Go to Drawing Screen, Select Canvas, Tap Drawing Options Menu, Select from Drawing Options Menu, Select Another Canvas, Undo, Redo, Share/Save to Device,
-Select From Right-hand Side Menu, Select Color, Change Color, Add Color to Palette, Select Brush, Change Brush Behaviour, Select Eraser, Change Eraser Behaviour, Select Color Palette, Remove Color from Palette,
-Save Palette, Load Palette, Save Canvas, Go to Info Page, Apply to Become an Artist, Go to Website, Go to Contacts Webpage
+User - Open the App, Go to Galleries, Select Gallery, Like Images, Share Image, Filter Images, Go to Drawing Screen, Select Canvas, Draw, Tap Drawing Options Menu, Select from Drawing Options Menu, Select Another Canvas,
+Undo, Redo, Share/Save to Device, Select From Right-hand Side Menu, Select Color, Change Color, Add Color to Palette, Select Brush, Change Brush Behaviour, Select Eraser, Change Eraser Behaviour,
+Select Color Palette, Remove Color from Palette, Save Palette, Load Palette, Delete Palette, Save Canvas, Go to Info Page, Apply to Become an Artist, Go to Website, Go to Contacts Webpage
 
 General Description of User:
 A user would use the app to collect information about this initiative, browse galleries, like, share, or filter artwork within them, to enhance their creativity or have fun using the drawing features the app provides,
@@ -29,6 +29,8 @@ Go to Drawing Screen - Users could navigate to the "Drawing Screen" from the top
 
 Select Canvas - For each new session, the "Drawing Screen" would force the user to select a canvas. Canvas selection could be a pop-up, and would allow the creation of a blank/new canvas or the selection of one that's
 already been worked on (loading feature).
+
+Draw - Drawing would happen with a default brush given to the user. Holding down on the canvas would paint with the selected brush and color.
 
 Tap Drawing Options Menu - By tapping this button, a few additional "bubbles" pop-up on the screen. These are additional options such as, selecting another canvas, undoing changes, redoing changes, sharing on
 social media, or saving to device.
@@ -67,6 +69,8 @@ automatically.
 Save Palette - The "Color Palettes" section would also host a button to save a color palette.
 
 Load Palette - The "Color Palettes" section would allow the user to pick from a list of color palettes they have previously saved.
+
+Delete Palette - Tapping and then holding on a "Color Palette" will prompt the user if they want to delete the selected palette.
 
 Save Canvas - Another option on the "Right-hand Side Menu", would be saving the canvas the user is working on. Tapping this would save all unsaved changes to the current canvas.
 
