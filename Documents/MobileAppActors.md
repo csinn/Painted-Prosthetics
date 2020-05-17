@@ -29,7 +29,7 @@ account details. This could be skipped so the individual could continue as a "Gu
 ****Actors Involved:**** User
 
 ****Share Images**** - Regardless of gallery selection, artwork could be shared on social media such as Facebook, Twitter, Instagram, Pinterest.  
-****Actors Involved:**** User
+****Actors Involved:**** Guest, User
 
 ****Filter Images**** - Regardless of gallery selection, artwork could be filtered. Filtering could happen based on: amount of likes (for simplicity, all emoji types count towards number of likes), amount of shares,
 recently posted.  
