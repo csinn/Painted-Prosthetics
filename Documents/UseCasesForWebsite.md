@@ -12,9 +12,9 @@ A visitor
 - *** Make a Donation : 
         - ***Donate a prosthetic*** he/she fill in a form which can be found at the donate link in the menu of the site. The visitor needs to fill in a name, email address
              maybe a telephone number and the visitor choose to donate a prostethic on the form.
-        - ***Donate money. e/she fill in a form which can be found at the donate link in the menu of the site. The visitor needs to fill in a name, email address
+        - ***Donate money***. he/she fill in a form which can be found at the donate link in the menu of the site. The visitor needs to fill in a name, email address
              maybe a telephone number and the visitor choose to donate a money on the form.
-        - *** Donate a Add***. he/she fill in a form which can be found at the donate link in the menu of the site. The visitor needs to fill in a name, email address
+        - *** Donate an ad***. he/she fill in a form which can be found at the donate link in the menu of the site. The visitor needs to fill in a name, email address
               maybe a telephone number and the visitor choose to donate a add on the form.
 
 
