@@ -2,19 +2,19 @@
 
 ## General Description of User:
 A user would use the app to collect information about this initiative, browse galleries, like, share, or filter artwork within them, to enhance their creativity or have fun using the drawing features the app provides,
-or to find redirects to the website where our logic centre is. They could share drawings they've made through the drawing menu, post them to facebook or other social media, or directly to our public gallery.
-Users would not apply or post images directly to the promotional gallery through the app. They would be redirected to the website in order to achieve these goals.
+or to find redirects to the website where our logic centre is. They could share drawings they've made through the drawing menu, post them to facebook or other social media, or directly to the "Public Gallery".
+Users would not apply or post images directly to the "Promotioanl Gallery" through the app. Content to the "Promotional Galley" would be uploaded by the admin through the website.
 
 ## General Description of Guest:
 Similar to a "User", a guest would be able to browse galleries, use the drawing features, and reach the website or contact webpages through the "Info" section. Unlike a signed in "User", however, "Guests"
-wouldn't be able to like, share, or post to any of the galleries. Saving artwork to their device, however, could be a possbility, but any kind of interactions with other artworks, would be limited until they sign in.
+wouldn't be able to like images in any galleries. Publishing images to the "Public Gallery" would be a possibilty, but again, similar to "Users" this would require approval from the admin.
 
 ## Use Cases:
 ****Open the App**** - Opening the app will direct the person to the "Sign In" page, where they could either sign in (with their Google Play account for example), or continue as a "Guest".
 Once a selection is made the individual is directed to the "Galleries" section (1st option on the top menubar inside the app). The menubar would be visible all the time and thus users could navigate to different tabs.
 ****Actors Involved:**** Guest, User
 
-****Sign In**** - Once the app is opened, and the individual is direted to the "Sign In" page, they could sign in, or continue as a guest. Should they select, "Sign In", a form would require them to provide their
+****Sign In**** - Once the app is opened, and the individual is directed to the "Sign In" page, they could sign in, or continue as a guest. Should they select, "Sign In", a form would require them to provide their
 account details. This could be skipped so the individual could continue as a "Guest".
 ****Actors Involved:**** Guest, User
 
@@ -22,7 +22,7 @@ account details. This could be skipped so the individual could continue as a "Gu
 ****Actors Involved:**** Guest, User
 
 ****Select Gallery**** - Once a user is inside the "Galleries" section, they could pick from 2 galleries - "Public Gallery" and "Promotional Gallery". Both galleries would have the same features inside the app
-(liking, filtering), but posting to the "Promotional Gallery" could only be done by the admin (the admin would accept artwork from artists only through the website).
+(liking, sharing, filtering), and everyone could post into the "Public Gallery" (with admin approval). The admin could accept artwork from artists through the website and push it to the "Promotional Gallery".
 ****Actors Involved:**** Guest, User
 
 ****Like Images**** - Regardless of which gallery the user is in, they could like any artwork they find. Liking could use different emoticions like Facebook does (thumbs-up, happy emoji, hearts emoji, impressed emoji).
@@ -58,7 +58,7 @@ social media, or saving to device.
 ****Redo**** - Another pop-up from the "Drawing Options Menu", facilitates redoing your previous changes. Again, can support up to X number of changes.
 ****Actors Involved:**** Guest, User
 
-****Share/Save to Device**** - "Users" could share their artwork in the "Public Gallery" whereas "Guest" users could simply save their artwork to their device.
+****Share/Save to Device**** - "Users" and "Guests" could share their artwork in the "Public Gallery" with admin approval.
 ****Actors Involved:**** Guest, User
 
 ****Select From Right-hand Side Menu**** - Apart from the "Drawing Options Menu", users can interact with additional buttons on the right-hand side. These would hold features such as: color selection, brush selection and
