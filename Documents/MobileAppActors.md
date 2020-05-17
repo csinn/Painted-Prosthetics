@@ -11,8 +11,8 @@ wouldn't be able to like images in any galleries. Publishing images to the "Publ
 
 ## Use Cases:
 ****Open the App**** - Opening the app will direct the person to the "Sign In" page, where they could either sign in (with their Google Play account for example), or continue as a "Guest".
-Once a selection is made the individual is directed to the "Galleries" section (1st option on the top menubar inside the app). The menubar would be visible all the time and thus users could navigate to different tabs.
-  ****Actors Involved:**** Guest, User
+Once a selection is made the individual is directed to the "Galleries" section (1st option on the top menubar inside the app). The menubar would be visible all the time and thus users could navigate to different tabs.  
+****Actors Involved:**** Guest, User
 
 ****Sign In**** - Once the app is opened, and the individual is directed to the "Sign In" page, they could sign in, or continue as a guest. Should they select, "Sign In", a form would require them to provide their
 account details. This could be skipped so the individual could continue as a "Guest".
