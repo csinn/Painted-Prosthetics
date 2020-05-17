@@ -33,7 +33,7 @@ A admin can
 - **Disapprove artist.**  The admin sets then the status to disapproved by or using a button or a select list. Also here the artist will receive a email that he/she is disapproved
  
 **System** – Notify old pending requests
-**Send a email on old request ** When a request is pendng for more then  4 weeks, the system should send a email that the request is received but that the submission is on a waiting list. 
+**Send a email on old request** When a request is pendng for more then  4 weeks, the system should send a email that the request is received but that the submission is on a waiting list. 
 
 
 
