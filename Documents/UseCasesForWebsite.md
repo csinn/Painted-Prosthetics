@@ -6,8 +6,7 @@ A visitor would use this website for getting information or donate as amputee a 
 Also the visitors can visit the gallery and like one of the displayed art there.
 
 A visitor 
-- ***request for a prosthetic***. The visitor needs to fill in a form, which can be reached by a link in the menu,  where the name, email-address and sort of prosthetic is filled in. 
-     When the visitor wants to pain the prosthetic then also the visitor can choose for a artist which the visitor likes or add some sketches of arts the visitor wants on the prosthetic.
+- ***request for art on a prosthetic in the making***. The visitor needs to fill in a form, which can be reached by a link in the menu,  where the name, email-address and sort of prosthetic is filled in. 
 
 - *** Make a Donation : 
         - ***Donate a prosthetic*** he/she fill in a form which can be found at the donate link in the menu of the site. The visitor needs to fill in a name, email address
@@ -18,7 +17,10 @@ A visitor
               maybe a telephone number and the visitor choose to donate a add on the form.
 
 
-***View public gallery*** which can also be found with a link on the menu of the site. The images will be sorted with the latest one first. 
+- ***View public gallery*** which can also be found with a link on the menu of the site. The images will be sorted with the latest one first. 
+
+_ *** View public gallery with fan submission. Which can be found with a link on the menu of the site. Here the drawings made by the app are shown
+
 - ***View info page*** by following the link on the menu of the website. On the info page the visitor can read information about the mission of this project and how it’s started, 
   success stories and comments of the artist involved. 
 
@@ -33,8 +35,11 @@ A visitor
 An artist could use this website for the same reasons as a regular user. Also the artist can fill in a form and 
 send two pictures of art the artist make so the admin can look f the artist is good enough to paint a prosthetic for a amputee or for the fun raising. 
 
--  a artist ***can apply to be a part of the project*** by filling in a apply form with the name and email address , send in X images of work he/she made and gets approved or disapproved. 
+A artist can
+-  *** apply to be a part of the project*** by filling in a apply form with the name and email address , send in X images of work he/she made and gets approved or disapproved. 
    The admin then gets a email that a artist has applied. 
+
+- ***View and modify their own application***.  After login , the artist can see a page where he/she can view their own submission and change it if needed. 
 
 ***Admin*** - A person who is in control of this project and the website
 
@@ -50,7 +55,11 @@ A admin can
 - ***Approve  artist.*** The admin sets then the status to approved by or using a button or a select list. The artist then gets a email that he/she is approved. 
 
 - ***Disapprove artist.***  The admin sets then the status to disapproved by or using a button or a select list. Also here the artist will receive a email that he/she is disapproved
- 
+
+- ***Add Images to the public gallery*** 
+
+- *** make a list of avaible artist to a amputee***. 
+
 *** Notify old pending requests *** 
 
 ***Notify old pending requests*** When a request is pendng for more then  4 weeks, the system should send a email that the request is received but that the submission is on a waiting list. 
