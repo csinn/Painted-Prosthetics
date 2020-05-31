@@ -7,13 +7,13 @@ The **cheapest prosthetic of a leg costs 5000$**, some being as expensive as a h
 
 ### What do we do to help?
 #### Amputee
-*“If life gives you lemons, you make lemonade.”- Elbert Hubbard*  
+*“If life gives you lemons, you make lemonade.”― Elbert Hubbard*  
 By no means, loosing a limb is nothing to be happyt about. However, we can make it less bad. Have you ever wanted a beautiful, painted leg that is one of a kind in the entire world? Let your imagination free and don't be affraid to show yourself. By matching an amputee with an artist we will allow them to make a request and ask for any kind of art they want on their prosthetics. Matching a company, we will donate at least a socket, or a whole leg!  
 
 Are you maybe someone who just baught a new prosthetic and now you have a spare, unused one? Unused prosthetics are gold for us, because we make art out of them and later auction as a means of raising awareness and gathering donation funds. Have unused prosthetic, don't it anymore- please donate it to us :) !
 
 #### Artist
-*“The principles of true art is not to portray, but to evoke”- Jerzy Kosinski*  
+*“The principles of true art is not to portray, but to evoke”― Jerzy Kosinski*  
 Probably the best way to express yourself, by both helping someone, feeling their pain and telling their story through an item they truly need. Showcase your art and become more known. Help an amputee by raising money by drawing on old, unused prosthetics which will be auctioned for raising money in order to buy either just a socket or a whole prosthetic. Paint on new prosthetic, helping amputee to better epxress their personality and make them happy!
 
 #### Company
