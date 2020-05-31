@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Infrastructure\PaintedProsthetics.Notifications\PaintedProsthetics.Notifications.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\PaintedProsthetics.Persistence\PaintedProsthetics.Persistence.csproj" />
+    <ProjectReference Include="..\..\PaintedProsthetics.SharedKernel\PaintedProsthetics.SharedKernel.csproj" />
+    <ProjectReference Include="..\PaintedProsthetics.Web.Api.Client\PaintedProsthetics.Web.Api.Client.csproj" />
+  </ItemGroup>
+
+
+</Project>
