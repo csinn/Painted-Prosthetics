@@ -1,4 +1,5 @@
 # Painted-Prosthetics
+![No longer usable prosthetics painted on and auctioned as art](Docs/Images/Prosthetics2.PNG)
 ## Our mission
 Life can be unfair and we, the more fortunate people, aim to make it slightly more just.
 
