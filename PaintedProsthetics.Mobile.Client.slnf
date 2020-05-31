@@ -1,0 +1,13 @@
+{
+  "solution": {
+    "path": "PaintedProsthetics.sln",
+    "projects": [
+      "Src\\Clients\\PaintedProsthetics.Mobile.Client\\PaintedProsthetics.Mobile.Client.csproj",
+      "Src\\Clients\\PaintedProsthetics.Web.Api.Client\\PaintedProsthetics.Web.Api.Client.csproj",
+      "Src\\PaintedProsthetics.SharedKernel\\PaintedProsthetics.SharedKernel.csproj",
+      "Tests\\Clients\\PaintedProsthetics.Mobile.Client.Tests.Smoke\\PaintedProsthetics.Mobile.Client.Tests.Smoke.csproj",
+      "Tests\\Clients\\PaintedProsthetics.Mobile.Client.Tests\\PaintedProsthetics.Mobile.Client.Tests.csproj",
+      "Tests\\PaintedProsthetics.SharedKernel.Tests\\PaintedProsthetics.SharedKernel.Tests.csproj"
+    ]
+  }
+}

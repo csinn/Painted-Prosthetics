@@ -1,0 +1,31 @@
+{
+  "solution": {
+    "path": "PaintedProsthetics.sln",
+    "projects": [
+      "Src\\Clients\\PaintedProsthetics.Web.Api.Client\\PaintedProsthetics.Web.Api.Client.csproj",
+      "Src\\Clients\\PaintedProsthetics.Web.Api\\PaintedProsthetics.Web.Api.csproj",
+      "Src\\Domain\\PaintedProsthetics.Admin\\PaintedProsthetics.Admin.csproj",
+      "Src\\Domain\\PaintedProsthetics.Amputee\\PaintedProsthetics.Amputee.csproj",
+      "Src\\Domain\\PaintedProsthetics.Artists\\PaintedProsthetics.Artists.csproj",
+      "Src\\Domain\\PaintedProsthetics.Donations\\PaintedProsthetics.Donations.csproj",
+      "Src\\Domain\\PaintedProsthetics.Drawing\\PaintedProsthetics.Drawing.csproj",
+      "Src\\Domain\\PaintedProsthetics.Gallery\\PaintedProsthetics.Gallery.csproj",
+      "Src\\Domain\\PaintedProsthetics.Matchmaking\\PaintedProsthetics.Matchmaking.csproj",
+      "Src\\Infrastructure\\PaintedProsthetics.Notifications\\PaintedProsthetics.Notifications.csproj",
+      "Src\\Infrastructure\\PaintedProsthetics.Persistence\\PaintedProsthetics.Persistence.csproj",
+      "Src\\PaintedProsthetics.SharedKernel\\PaintedProsthetics.SharedKernel.csproj",
+      "Tests\\Clients\\PaintedProsthetics.Web.Api.Tests.Smoke\\PaintedProsthetics.Web.Api.Tests.Smoke.csproj",
+      "Tests\\Clients\\PaintedProsthetics.Web.Api.Tests\\PaintedProsthetics.Web.Api.Tests.csproj",
+      "Tests\\Domain\\PaintedProsthetics.Admin.Tests\\PaintedProsthetics.Admin.Tests.csproj",
+      "Tests\\Domain\\PaintedProsthetics.Amputee.Tests\\PaintedProsthetics.Amputee.Tests.csproj",
+      "Tests\\Domain\\PaintedProsthetics.Artists.Tests\\PaintedProsthetics.Artists.Tests.csproj",
+      "Tests\\Domain\\PaintedProsthetics.Donations.Tests\\PaintedProsthetics.Donations.Tests.csproj",
+      "Tests\\Domain\\PaintedProsthetics.Drawing.Tests\\PaintedProsthetics.Drawing.Tests.csproj",
+      "Tests\\Domain\\PaintedProsthetics.Gallery.Tests\\PaintedProsthetics.Gallery.Tests.csproj",
+      "Tests\\Domain\\PaintedProsthetics.Matchmaking.Tests\\PaintedProsthetics.Matchmaking.Tests.csproj",
+      "Tests\\Infrastructure\\PaintedProsthetics.Notifications.Tests\\PaintedProsthetics.Notifications.Tests.csproj",
+      "Tests\\Infrastructure\\PaintedProsthetics.Persistence.Tests\\PaintedProsthetics.Persistence.Tests.csproj",
+      "Tests\\PaintedProsthetics.SharedKernel.Tests\\PaintedProsthetics.SharedKernel.Tests.csproj"
+    ]
+  }
+}
