@@ -6,7 +6,7 @@ Can be a company, artist, amputee or other person.
 A registered user (probably via a Google Account), who can do everything that a "Guest" can, plus additional features on top of that.
 
 # Use Cases
-## Mobile Application - Entry Point.
+## Mobile Application - Entry Point
 ### Guest
 #### Open the App
 Opening the app will direct the person to the "Sign In" page, where they could either sign in (with their Google Play account for example), or continue as a "Guest".
