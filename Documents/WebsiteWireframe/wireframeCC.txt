@@ -6,6 +6,10 @@ info - https://wireframe.cc/pLU3Vm
 donation - https://wireframe.cc/zPMuxH
 Login - https://wireframe.cc/JgUdzy
 Artist Page - https://wireframe.cc/o6enug
-Artist Admin - 
+User Request Prosthetic - https://wireframe.cc/Wei4iQ
+user Artist Apply - https://wireframe.cc/K4VIl7
+User sent Artist Application - https://wireframe.cc/1wUgsk
+user sent prosthetic request - https://wireframe.cc/8oBGqc
+Artist Manage Portofolio - https://wireframe.cc/uowizG
 Admin - 
-
+Login Personal Info - https://wireframe.cc/Nomxun
