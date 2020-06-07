@@ -24,6 +24,8 @@ When a user navigated to another tab using the top menubar, they could navigate 
 ##### Select Gallery
 Once a user is inside the "Galleries" section, they could pick from 2 galleries - "Public Gallery" and "Promotional Gallery". Both galleries would have the same features inside the app
 (liking, sharing, filtering), and everyone could post into the "Public Gallery" (with admin approval). The admin could accept artwork from artists through the website and push it to the "Promotional Gallery".
+###### View Images
+Open and view images directly through the mobile app.
 ###### Share Images
 Regardless of gallery selection, artwork could be shared on social media such as Facebook, Twitter, Instagram, Pinterest.
 ###### Filter Images
