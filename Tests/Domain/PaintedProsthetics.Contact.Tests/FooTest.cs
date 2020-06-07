@@ -1,9 +1,9 @@
-using FluentAssertions;
+﻿using FluentAssertions;
 using Xunit;
 
-namespace PaintedProsthetics.SharedKernel.Tests
+namespace PaintedProsthetics.Contact.Tests
 {
-    public class UnitTest1
+    public class FooTest
     {
         [Fact]
         public void Test()

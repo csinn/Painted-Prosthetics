@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\Src\Common\PaintedProsthetics.xUnit.Common\PaintedProsthetics.xUnit.Common.csproj" />
+    <ProjectReference Include="..\..\..\Src\Domain\PaintedProsthetics.Users\PaintedProsthetics.Users.csproj" />
   </ItemGroup>
 
 </Project>

@@ -116,6 +116,10 @@
     <PackageReference Include="Xamarin.Essentials" Version="1.3.1" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Common\PaintedProsthetics.Validation\PaintedProsthetics.Validation.csproj">
+      <Project>{5c5686ec-9d7f-4aa5-888d-2365a37bc6a4}</Project>
+      <Name>PaintedProsthetics.Validation</Name>
+    </ProjectReference>
     <ProjectReference Include="..\PaintedProsthetics.Web.Api.Client\PaintedProsthetics.Web.Api.Client.csproj">
       <Project>{7491e1fe-e345-4a53-893d-37096390d0e7}</Project>
       <Name>PaintedProsthetics.Web.Api.Client</Name>

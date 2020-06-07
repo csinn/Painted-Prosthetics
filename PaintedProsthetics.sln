@@ -48,33 +48,33 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaintedProsthetics.Mobile.C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaintedProsthetics.Mobile.Client.Tests", "Tests\Clients\PaintedProsthetics.Mobile.Client.Tests\PaintedProsthetics.Mobile.Client.Tests.csproj", "{F9258CFE-744E-4535-995F-E768A29393BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaintedProsthetics.Amputee.Tests", "Tests\Domain\PaintedProsthetics.Amputee.Tests\PaintedProsthetics.Amputee.Tests.csproj", "{A280910F-94F9-4B34-B10F-5403FE9FD3EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaintedProsthetics.Amputee.Tests", "Tests\Domain\PaintedProsthetics.Amputee.Tests\PaintedProsthetics.Amputee.Tests.csproj", "{A280910F-94F9-4B34-B10F-5403FE9FD3EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaintedProsthetics.Artists.Tests", "Tests\Domain\PaintedProsthetics.Artists.Tests\PaintedProsthetics.Artists.Tests.csproj", "{0BE93A60-A632-456C-8DEA-119DE41B09FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaintedProsthetics.Artists.Tests", "Tests\Domain\PaintedProsthetics.Artists.Tests\PaintedProsthetics.Artists.Tests.csproj", "{0BE93A60-A632-456C-8DEA-119DE41B09FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaintedProsthetics.Donations.Tests", "Tests\Domain\PaintedProsthetics.Donations.Tests\PaintedProsthetics.Donations.Tests.csproj", "{C45DAE1B-1EB7-4C29-A2C8-1788CF0B9B43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaintedProsthetics.Donations.Tests", "Tests\Domain\PaintedProsthetics.Donations.Tests\PaintedProsthetics.Donations.Tests.csproj", "{C45DAE1B-1EB7-4C29-A2C8-1788CF0B9B43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaintedProsthetics.Drawing.Tests", "Tests\Domain\PaintedProsthetics.Drawing.Tests\PaintedProsthetics.Drawing.Tests.csproj", "{CD508C54-5CCC-4984-8A8C-80EB320CE8B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaintedProsthetics.Drawing.Tests", "Tests\Domain\PaintedProsthetics.Drawing.Tests\PaintedProsthetics.Drawing.Tests.csproj", "{CD508C54-5CCC-4984-8A8C-80EB320CE8B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaintedProsthetics.Gallery.Tests", "Tests\Domain\PaintedProsthetics.Gallery.Tests\PaintedProsthetics.Gallery.Tests.csproj", "{789EB1C3-8967-4B2E-9066-B69193AC7B5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaintedProsthetics.Gallery.Tests", "Tests\Domain\PaintedProsthetics.Gallery.Tests\PaintedProsthetics.Gallery.Tests.csproj", "{789EB1C3-8967-4B2E-9066-B69193AC7B5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaintedProsthetics.Notifications.Tests", "Tests\Infrastructure\PaintedProsthetics.Notifications.Tests\PaintedProsthetics.Notifications.Tests.csproj", "{9638E5B3-50A0-47F8-AE5E-45174B954A16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaintedProsthetics.Notifications.Tests", "Tests\Infrastructure\PaintedProsthetics.Notifications.Tests\PaintedProsthetics.Notifications.Tests.csproj", "{9638E5B3-50A0-47F8-AE5E-45174B954A16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaintedProsthetics.Persistence.Tests", "Tests\Infrastructure\PaintedProsthetics.Persistence.Tests\PaintedProsthetics.Persistence.Tests.csproj", "{2A64DA48-8FD4-426C-AB9B-0ACA7DAD3DC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaintedProsthetics.Persistence.Tests", "Tests\Infrastructure\PaintedProsthetics.Persistence.Tests\PaintedProsthetics.Persistence.Tests.csproj", "{2A64DA48-8FD4-426C-AB9B-0ACA7DAD3DC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaintedProsthetics.Web.Api.Tests", "Tests\Clients\PaintedProsthetics.Web.Api.Tests\PaintedProsthetics.Web.Api.Tests.csproj", "{A35210DD-57E9-401E-8E36-A332EFDFF8E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaintedProsthetics.Web.Api.Tests", "Tests\Clients\PaintedProsthetics.Web.Api.Tests\PaintedProsthetics.Web.Api.Tests.csproj", "{A35210DD-57E9-401E-8E36-A332EFDFF8E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaintedProsthetics.Web.Api.Tests.Smoke", "Tests\Clients\PaintedProsthetics.Web.Api.Tests.Smoke\PaintedProsthetics.Web.Api.Tests.Smoke.csproj", "{07AE50CD-2EF0-47BA-B29A-2663078DB6FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaintedProsthetics.Web.Api.Tests.Smoke", "Tests\Clients\PaintedProsthetics.Web.Api.Tests.Smoke\PaintedProsthetics.Web.Api.Tests.Smoke.csproj", "{07AE50CD-2EF0-47BA-B29A-2663078DB6FB}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaintedProsthetics.Web.Client.Tests", "Tests\Clients\PaintedProsthetics.Web.Client.Tests\PaintedProsthetics.Web.Client.Tests.csproj", "{F5365868-BBCE-4FC8-A936-38C9F61FF190}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaintedProsthetics.Web.Client.Tests.Smoke", "Tests\Clients\PaintedProsthetics.Web.Client.Tests.Smoke\PaintedProsthetics.Web.Client.Tests.Smoke.csproj", "{31EABA8F-22A6-4C38-ABFC-28833102AF19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaintedProsthetics.Contact", "Src\Domain\PaintedProsthetics.Contact\PaintedProsthetics.Contact.csproj", "{E3C7089D-56A1-4051-9316-661A32CCAFD7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaintedProsthetics.Contact", "Src\Domain\PaintedProsthetics.Contact\PaintedProsthetics.Contact.csproj", "{E3C7089D-56A1-4051-9316-661A32CCAFD7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaintedProsthetics.Users", "Src\Domain\PaintedProsthetics.Users\PaintedProsthetics.Users.csproj", "{CF348071-E51D-4B82-81BD-9761E84A68B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaintedProsthetics.Users", "Src\Domain\PaintedProsthetics.Users\PaintedProsthetics.Users.csproj", "{CF348071-E51D-4B82-81BD-9761E84A68B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaintedProsthetics.Portfolio", "Src\Domain\PaintedProsthetics.Portfolio\PaintedProsthetics.Portfolio.csproj", "{7B754438-97D8-45EA-BAFC-31E2A5726C8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaintedProsthetics.Portfolio", "Src\Domain\PaintedProsthetics.Portfolio\PaintedProsthetics.Portfolio.csproj", "{7B754438-97D8-45EA-BAFC-31E2A5726C8B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{42957C50-093E-43E2-8E0C-A550046E6327}"
 EndProject
@@ -82,19 +82,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{0CAA71
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaintedProsthetics.SharedKernel", "Src\Common\PaintedProsthetics.SharedKernel\PaintedProsthetics.SharedKernel.csproj", "{E5C83727-FA40-4649-B9A4-DCC9A5E57560}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaintedProsthetics.xUnit.Common", "Src\Common\PaintedProsthetics.xUnit.Common\PaintedProsthetics.xUnit.Common.csproj", "{54FBAC2B-7CBC-45B5-B1B8-B6A25A1D9878}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaintedProsthetics.xUnit.Common", "Src\Common\PaintedProsthetics.xUnit.Common\PaintedProsthetics.xUnit.Common.csproj", "{54FBAC2B-7CBC-45B5-B1B8-B6A25A1D9878}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaintedProsthetics.Validation", "PaintedProsthetics.Validation\PaintedProsthetics.Validation.csproj", "{79F620A2-297A-4350-A328-A9B069C39233}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaintedProsthetics.Contact.Tests", "Tests\Domain\PaintedProsthetics.Contact.Tests\PaintedProsthetics.Contact.Tests.csproj", "{1AEC6167-2267-4C60-BCC1-7A56CE9712DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaintedProsthetics.Contact.Tests", "Tests\Domain\PaintedProsthetics.Contact.Tests\PaintedProsthetics.Contact.Tests.csproj", "{1AEC6167-2267-4C60-BCC1-7A56CE9712DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaintedProsthetics.Portfolio.Tests", "Tests\Domain\PaintedProsthetics.Portfolio.Tests\PaintedProsthetics.Portfolio.Tests.csproj", "{84CFF75A-8DEB-4D3C-8B7B-B77E99E483AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaintedProsthetics.Portfolio.Tests", "Tests\Domain\PaintedProsthetics.Portfolio.Tests\PaintedProsthetics.Portfolio.Tests.csproj", "{84CFF75A-8DEB-4D3C-8B7B-B77E99E483AA}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaintedProsthetics.Users.Tests", "Tests\Domain\PaintedProsthetics.Users.Tests\PaintedProsthetics.Users.Tests.csproj", "{F2F34A0D-10B5-4908-BCF6-A63F26CB5005}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaintedProsthetics.Users.Tests", "Tests\Domain\PaintedProsthetics.Users.Tests\PaintedProsthetics.Users.Tests.csproj", "{F2F34A0D-10B5-4908-BCF6-A63F26CB5005}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaintedProsthetics.SharedKernel.Tests", "Tests\Common\PaintedProsthetics.SharedKernel.Tests\PaintedProsthetics.SharedKernel.Tests.csproj", "{72F7215E-BBCC-40F5-B092-02EC3E49D2CE}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaintedProsthetics.Validation.Tests", "Tests\Common\PaintedProsthetics.Validation.Tests\PaintedProsthetics.Validation.Tests.csproj", "{BE96805B-F428-478D-9FB7-E9BDDF80010E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaintedProsthetics.Validation", "Src\Common\PaintedProsthetics.Validation\PaintedProsthetics.Validation.csproj", "{5C5686EC-9D7F-4AA5-888D-2365A37BC6A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaintedProsthetics.Architecture.Tests", "Tests\PaintedProsthetics.Architecture.Tests\PaintedProsthetics.Architecture.Tests.csproj", "{D0741A53-F6A9-4860-9334-050012F960CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -220,10 +222,6 @@ Global
 		{54FBAC2B-7CBC-45B5-B1B8-B6A25A1D9878}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54FBAC2B-7CBC-45B5-B1B8-B6A25A1D9878}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54FBAC2B-7CBC-45B5-B1B8-B6A25A1D9878}.Release|Any CPU.Build.0 = Release|Any CPU
-		{79F620A2-297A-4350-A328-A9B069C39233}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{79F620A2-297A-4350-A328-A9B069C39233}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{79F620A2-297A-4350-A328-A9B069C39233}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{79F620A2-297A-4350-A328-A9B069C39233}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1AEC6167-2267-4C60-BCC1-7A56CE9712DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1AEC6167-2267-4C60-BCC1-7A56CE9712DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1AEC6167-2267-4C60-BCC1-7A56CE9712DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -244,6 +242,14 @@ Global
 		{BE96805B-F428-478D-9FB7-E9BDDF80010E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE96805B-F428-478D-9FB7-E9BDDF80010E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE96805B-F428-478D-9FB7-E9BDDF80010E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C5686EC-9D7F-4AA5-888D-2365A37BC6A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C5686EC-9D7F-4AA5-888D-2365A37BC6A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C5686EC-9D7F-4AA5-888D-2365A37BC6A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C5686EC-9D7F-4AA5-888D-2365A37BC6A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0741A53-F6A9-4860-9334-050012F960CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0741A53-F6A9-4860-9334-050012F960CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0741A53-F6A9-4860-9334-050012F960CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0741A53-F6A9-4860-9334-050012F960CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -286,12 +292,13 @@ Global
 		{0CAA7108-AC63-49E9-A448-728BF260799B} = {3459E5DF-9477-479B-8B95-A472E78D1DE0}
 		{E5C83727-FA40-4649-B9A4-DCC9A5E57560} = {0CAA7108-AC63-49E9-A448-728BF260799B}
 		{54FBAC2B-7CBC-45B5-B1B8-B6A25A1D9878} = {0CAA7108-AC63-49E9-A448-728BF260799B}
-		{79F620A2-297A-4350-A328-A9B069C39233} = {0CAA7108-AC63-49E9-A448-728BF260799B}
 		{1AEC6167-2267-4C60-BCC1-7A56CE9712DC} = {D527CF72-0545-4F05-9777-545E458FB552}
 		{84CFF75A-8DEB-4D3C-8B7B-B77E99E483AA} = {D527CF72-0545-4F05-9777-545E458FB552}
 		{F2F34A0D-10B5-4908-BCF6-A63F26CB5005} = {D527CF72-0545-4F05-9777-545E458FB552}
 		{72F7215E-BBCC-40F5-B092-02EC3E49D2CE} = {42957C50-093E-43E2-8E0C-A550046E6327}
 		{BE96805B-F428-478D-9FB7-E9BDDF80010E} = {42957C50-093E-43E2-8E0C-A550046E6327}
+		{5C5686EC-9D7F-4AA5-888D-2365A37BC6A4} = {0CAA7108-AC63-49E9-A448-728BF260799B}
+		{D0741A53-F6A9-4860-9334-050012F960CA} = {FC7CC51D-A8C3-4AEE-92BF-8FDC91260405}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3651761F-1573-41D4-AA5D-6A2ADA7EEC33}

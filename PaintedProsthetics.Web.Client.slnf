@@ -4,10 +4,10 @@
     "projects": [
       "Src\\Clients\\PaintedProsthetics.Web.Api.Client\\PaintedProsthetics.Web.Api.Client.csproj",
       "Src\\Clients\\PaintedProsthetics.Web.Client\\PaintedProsthetics.Web.Client.csproj",
-      "Src\\PaintedProsthetics.SharedKernel\\PaintedProsthetics.SharedKernel.csproj",
+      "Src\\Common\\PaintedProsthetics.Validation\\PaintedProsthetics.Validation.csproj",
       "Tests\\Clients\\PaintedProsthetics.Web.Client.Tests.Smoke\\PaintedProsthetics.Web.Client.Tests.Smoke.csproj",
       "Tests\\Clients\\PaintedProsthetics.Web.Client.Tests\\PaintedProsthetics.Web.Client.Tests.csproj",
-      "Tests\\PaintedProsthetics.SharedKernel.Tests\\PaintedProsthetics.SharedKernel.Tests.csproj"
+      "Tests\\Common\\PaintedProsthetics.Validation.Tests\\PaintedProsthetics.Validation.Tests.csproj"
     ]
   }
 }

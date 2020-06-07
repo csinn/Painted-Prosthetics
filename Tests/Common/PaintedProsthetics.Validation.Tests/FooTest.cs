@@ -1,7 +1,7 @@
 ﻿using FluentAssertions;
 using Xunit;
 
-namespace PaintedProsthetics.Mobile.Client.Tests
+namespace PaintedProsthetics.Validation.Tests
 {
     public class FooTest
     {

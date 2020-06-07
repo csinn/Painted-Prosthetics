@@ -2,22 +2,26 @@
   "solution": {
     "path": "PaintedProsthetics.sln",
     "projects": [
-      "Src\\Domain\\PaintedProsthetics.Admin\\PaintedProsthetics.Admin.csproj",
+	  "Src\\Domain\\PaintedProsthetics.Users\\PaintedProsthetics.Users.csproj",
       "Src\\Domain\\PaintedProsthetics.Amputee\\PaintedProsthetics.Amputee.csproj",
       "Src\\Domain\\PaintedProsthetics.Artists\\PaintedProsthetics.Artists.csproj",
+	  "Src\\Domain\\PaintedProsthetics.Contact\\PaintedProsthetics.Contact.csproj",
       "Src\\Domain\\PaintedProsthetics.Donations\\PaintedProsthetics.Donations.csproj",
       "Src\\Domain\\PaintedProsthetics.Drawing\\PaintedProsthetics.Drawing.csproj",
       "Src\\Domain\\PaintedProsthetics.Gallery\\PaintedProsthetics.Gallery.csproj",
-      "Src\\Domain\\PaintedProsthetics.Matchmaking\\PaintedProsthetics.Matchmaking.csproj",
-      "Src\\PaintedProsthetics.SharedKernel\\PaintedProsthetics.SharedKernel.csproj",
-      "Tests\\Domain\\PaintedProsthetics.Admin.Tests\\PaintedProsthetics.Admin.Tests.csproj",
+      "Src\\Domain\\PaintedProsthetics.Portfolio\\PaintedProsthetics.Portfolio.csproj",
+      "Src\\Common\\PaintedProsthetics.SharedKernel\\PaintedProsthetics.SharedKernel.csproj",
+	  "Src\\Common\\PaintedProsthetics.Validation\\PaintedProsthetics.Validation.csproj",
+      "Tests\\Domain\\PaintedProsthetics.Users.Tests\\PaintedProsthetics.Users.Tests.csproj",
       "Tests\\Domain\\PaintedProsthetics.Amputee.Tests\\PaintedProsthetics.Amputee.Tests.csproj",
-      "Tests\\Domain\\PaintedProsthetics.Artists.Tests\\PaintedProsthetics.Artists.Tests.csproj",
+      "Tests\\Domain\\PaintedProsthetics.Contact.Tests\\PaintedProsthetics.Contact.Tests.csproj",
+	  "Tests\\Domain\\PaintedProsthetics.Artists.Tests\\PaintedProsthetics.Artists.Tests.csproj",
       "Tests\\Domain\\PaintedProsthetics.Donations.Tests\\PaintedProsthetics.Donations.Tests.csproj",
       "Tests\\Domain\\PaintedProsthetics.Drawing.Tests\\PaintedProsthetics.Drawing.Tests.csproj",
       "Tests\\Domain\\PaintedProsthetics.Gallery.Tests\\PaintedProsthetics.Gallery.Tests.csproj",
-      "Tests\\Domain\\PaintedProsthetics.Matchmaking.Tests\\PaintedProsthetics.Matchmaking.Tests.csproj",
-      "Tests\\PaintedProsthetics.SharedKernel.Tests\\PaintedProsthetics.SharedKernel.Tests.csproj"
+      "Tests\\Domain\\PaintedProsthetics.Portfolio.Tests\\PaintedProsthetics.Portfolio.Tests.csproj",
+      "Tests\\Common\\PaintedProsthetics.SharedKernel.Tests\\PaintedProsthetics.SharedKernel.Tests.csproj",
+	  "Tests\\Common\\PaintedProsthetics.Validation.Tests\\PaintedProsthetics.Validation.Tests.csproj"
     ]
   }
 }

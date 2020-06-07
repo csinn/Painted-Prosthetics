@@ -1,7 +1,6 @@
-using System;
 using Xunit;
 
-namespace PaintedProsthetics.Users.Tests
+namespace PaintedProsthetics.Architecture.Tests
 {
     public class UnitTest1
     {

@@ -9,7 +9,8 @@
     <PackageReference Include="AutoFixture.AutoMoq" Version="4.11.0" />
     <PackageReference Include="AutoFixture.Xunit2" Version="4.11.0" />
     <PackageReference Include="FluentAssertions" Version="5.10.3" />
-    <PackageReference Include="xunit.extensibility.core" Version="2.4.1" />
+    <PackageReference Include="Moq" Version="4.8.0" />
+    <PackageReference Include="xunit.extensibility.core" Version="2.4.0" />
   </ItemGroup>
 
 </Project>
