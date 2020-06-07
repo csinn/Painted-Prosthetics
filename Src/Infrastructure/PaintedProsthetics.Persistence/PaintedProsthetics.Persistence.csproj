@@ -9,13 +9,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Domain\PaintedProsthetics.Admin\PaintedProsthetics.Admin.csproj" />
     <ProjectReference Include="..\..\Domain\PaintedProsthetics.Amputee\PaintedProsthetics.Amputee.csproj" />
     <ProjectReference Include="..\..\Domain\PaintedProsthetics.Artists\PaintedProsthetics.Artists.csproj" />
     <ProjectReference Include="..\..\Domain\PaintedProsthetics.Donations\PaintedProsthetics.Donations.csproj" />
     <ProjectReference Include="..\..\Domain\PaintedProsthetics.Drawing\PaintedProsthetics.Drawing.csproj" />
     <ProjectReference Include="..\..\Domain\PaintedProsthetics.Gallery\PaintedProsthetics.Gallery.csproj" />
-    <ProjectReference Include="..\..\Domain\PaintedProsthetics.Matchmaking\PaintedProsthetics.Matchmaking.csproj" />
   </ItemGroup>
 
 </Project>

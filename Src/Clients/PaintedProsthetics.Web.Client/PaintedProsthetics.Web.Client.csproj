@@ -21,7 +21,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\PaintedProsthetics.SharedKernel\PaintedProsthetics.SharedKernel.csproj" />
     <ProjectReference Include="..\PaintedProsthetics.Web.Api.Client\PaintedProsthetics.Web.Api.Client.csproj" />
   </ItemGroup>
 

@@ -5,9 +5,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Domain\PaintedProsthetics.Amputee\PaintedProsthetics.Amputee.csproj" />
+    <ProjectReference Include="..\..\Domain\PaintedProsthetics.Artists\PaintedProsthetics.Artists.csproj" />
+    <ProjectReference Include="..\..\Domain\PaintedProsthetics.Contact\PaintedProsthetics.Contact.csproj" />
+    <ProjectReference Include="..\..\Domain\PaintedProsthetics.Donations\PaintedProsthetics.Donations.csproj" />
+    <ProjectReference Include="..\..\Domain\PaintedProsthetics.Drawing\PaintedProsthetics.Drawing.csproj" />
+    <ProjectReference Include="..\..\Domain\PaintedProsthetics.Gallery\PaintedProsthetics.Gallery.csproj" />
+    <ProjectReference Include="..\..\Domain\PaintedProsthetics.Portfolio\PaintedProsthetics.Portfolio.csproj" />
+    <ProjectReference Include="..\..\Domain\PaintedProsthetics.Users\PaintedProsthetics.Users.csproj" />
     <ProjectReference Include="..\..\Infrastructure\PaintedProsthetics.Notifications\PaintedProsthetics.Notifications.csproj" />
     <ProjectReference Include="..\..\Infrastructure\PaintedProsthetics.Persistence\PaintedProsthetics.Persistence.csproj" />
-    <ProjectReference Include="..\..\PaintedProsthetics.SharedKernel\PaintedProsthetics.SharedKernel.csproj" />
     <ProjectReference Include="..\PaintedProsthetics.Web.Api.Client\PaintedProsthetics.Web.Api.Client.csproj" />
   </ItemGroup>
 

@@ -14,8 +14,4 @@
     <Folder Include="Requests\" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\..\PaintedProsthetics.SharedKernel\PaintedProsthetics.SharedKernel.csproj" />
-  </ItemGroup>
-
 </Project>

@@ -5,9 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Models\" />
-    <Folder Include="Repositories\" />
-    <Folder Include="Services\" />
+    <ProjectReference Include="..\..\Common\PaintedProsthetics.SharedKernel\PaintedProsthetics.SharedKernel.csproj" />
   </ItemGroup>
 
 </Project>

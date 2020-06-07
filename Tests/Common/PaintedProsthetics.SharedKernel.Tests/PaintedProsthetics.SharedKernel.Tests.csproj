@@ -22,13 +22,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\Src\Common\PaintedProsthetics.xUnit.Common\PaintedProsthetics.xUnit.Common.csproj" />
-    <ProjectReference Include="..\..\..\Src\Domain\PaintedProsthetics.Amputee\PaintedProsthetics.Amputee.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Models\" />
-    <Folder Include="Repositories\" />
-    <Folder Include="Services\" />
   </ItemGroup>
 
 </Project>

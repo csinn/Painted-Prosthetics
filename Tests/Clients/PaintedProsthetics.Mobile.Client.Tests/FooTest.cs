@@ -12,7 +12,7 @@ namespace PaintedProsthetics.Mobile.Client.Tests
 
             var actual = foo.Bar();
 
-            actual.Should().Be("Bar");
+            actual.Should();
         }
     }
 }
