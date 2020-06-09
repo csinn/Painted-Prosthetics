@@ -17,6 +17,7 @@ user Artist Apply - https://wireframe.cc/K4VIl7
 User sent Artist Application - https://wireframe.cc/1wUgsk
 user sent prosthetic request - https://wireframe.cc/8oBGqc
 Artist Manage Portofolio - https://wireframe.cc/uowizG
+Artist Availability - https://wireframe.cc/azrMFt
 
 Admin amputee management - https://wireframe.cc/zEumE5
 Admin Artist Management - https://wireframe.cc/3J4h0X
