@@ -1,0 +1,30 @@
+Pages (carefull you can edit them just dont press save)
+
+Menu Bar & Footer - https://wireframe.cc/E4U6MN
+
+Gallery - https://wireframe.cc/Q3SCkd
+Artist Page - https://wireframe.cc/o6enug
+
+Info - https://wireframe.cc/pLU3Vm
+Donation - https://wireframe.cc/zPMuxH
+
+Login - https://wireframe.cc/JgUdzy
+Register - https://wireframe.cc/Oy2gus
+
+User Personal Info - https://wireframe.cc/Nomxun
+User Request Prosthetic - https://wireframe.cc/Wei4iQ
+User Artist Apply - https://wireframe.cc/K4VIl7
+User Sent Artist Application - https://wireframe.cc/1wUgsk
+User Sent Prosthetic Request - https://wireframe.cc/8oBGqc
+Artist Manage Portofolio - https://wireframe.cc/uowizG
+Artist Availability - https://wireframe.cc/azrMFt
+
+Admin Amputee Management - https://wireframe.cc/zEumE5
+Admin Artist Management - https://wireframe.cc/3J4h0X
+Admin Pro Gallery Management - https://wireframe.cc/eAvotx
+Admin Fan Gallery Management - https://wireframe.cc/KUaDuC
+Admin Artist Availability - https://wireframe.cc/oB0skS
+Admin Donations - https://wireframe.cc/TfgAls
+Admin Feedback - https://wireframe.cc/j5Chap
+
+
