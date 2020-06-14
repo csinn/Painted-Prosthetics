@@ -21,7 +21,9 @@ Notifications and other automation.
 
 # Use Cases
 ## Amputee module
+Managing requests of painted prosthetics.
 ### Guest
+Someone in need of help (due to financial issues) to get a prosthetic.
 #### Request prosthetic. 
 There is a menu option to request a prosthetic. This action redirects to prosthetic request submission form.
 ##### Submit request form
@@ -30,6 +32,7 @@ Also a name, adress and justification message.
 This automatically registers them as artist user and emails the credentials. For more info refer to **Users-Subsystem**
 *Is there any way to validate the request form?*
 ### Amputee
+A guest that has a proof of being with a disability and requested a prosthetic.
 #### View prosthetic request
 Able to view their own request: data sent, status, proof.
 ##### Edit
@@ -38,6 +41,7 @@ Change a proof or contact info.
 Delete request entry without any capability of restoring it.
 Also deletes amputee account.
 ### Admin
+Manager of amputee requests.
 #### View amputee requests
 See pending request with amputee contact info and proof of disability attached.
 #### Accept prosthetic request
@@ -55,6 +59,7 @@ The email by itself is just a notification, in order to start a dialogue between
 
 ## Donations module
 ### Guest
+Supporter of the idea.
 #### View donations page
 Contain feedback all over the place, also a bunch of thank yous from amputees, artists and supporters of idea.
 Also there should be 4 buttons for different kind of donations.
@@ -74,6 +79,7 @@ maybe a telephone number and the visitor chooses to donate money on the form.
 he/she fills in a form which can be found at the donate link in the menu of the site. The visitor needs to fill in a name, email address
 maybe a telephone number and the visitor chooses to donate a add on the form.
 ### Admin
+Interested in historic donations and potential contacts.
 #### View donations
 See all historic donations: from whom and what (type), note and date.
 ##### Filter
@@ -84,6 +90,7 @@ After a donation is made, a donor gets emailed the next steps, thanks, etc.
 
 ## Gallery module
 ### Guest
+Someone who likes art, search for inspiration, maybe an amputee or maybe an artist.
 #### View fans gallery
 Art that comes from drawing app. Images sorted by latest.
 #### View pro gallery 
@@ -104,7 +111,9 @@ Refers to the gallery part the image is taken from.
 Images can be filtered by author, datetime, likes.
 
 ### Admin
+Manages artwork.
 #### Fans gallery
+Contains artwork from uploads of mobile app.
 ##### Decline
 Decline art from drawing app.
 ##### Confirm
@@ -112,6 +121,7 @@ Accept art from drawing app.
 ##### Prioritize
 Arrange top visible art in fans gallery.
 #### Professional gallery
+Contains artwork from applications of Pro (confirmed) artists and their portfolio.
 ##### Prioritize
 Arrange top visible art in professional gallery.
 #### Share available artists gallery
@@ -120,12 +130,15 @@ All artwork of available artists can be pulled down in a kind-off secret gallery
 It's not really a secret gallery, but the link to it is not visible in public website.
 
 ## Artist module
+Managing artists applications.
 ### Artist
+A professional (either aspiring or already making a living of it) who either wants to help with the charity idea or simply make their name a bit more known.
 #### Request to become verified artist
 A guest can request to be a verified artist. This redirects them to an application form.
 ##### Submit application form
 Requires contact info and a link to portfolio.
 This automatically registers them as artist user and emails the credentials.
+This also creates their portfolio (private)
 #### View artist application
 After artist is logged in, they can view their own applciation.
 ##### Edit
@@ -146,11 +159,14 @@ Admin can generate a gallery with artwork of only artists, who flagged themselve
 See only already confirmed artists. And filter them by statuses: avaiable, not available for period of time, not available for indefinite period of time.
 This automatically registers them as artist user and emails the credentials.
 ### System
+Notifications.
 #### Notify old pending requests
 When a request is pending for more than 4 weeks, the system should send an email that the request is received but that the submission is on a waiting list. 
 
 ## Feedback module
+Managing feedback.
 ### Guest
+Someone who supports an idea and wants to say thank you. Or someone who wants to be inspired by all the good feedback.
 ##### Send feedback
 Anyone can send feedback, but it won't be visible publicly until admin approves it.
 ##### View approved feedback
@@ -164,41 +180,76 @@ Can accept feedback of random people. Accepting it places feedback randomly on t
 Declining feedback removes pending feedback entry.
 
 ## Users module
+Registration and login.
 ### System
+Manages accounts automatically.
 #### Register
 Registration process is automated after a request is made (either amputee or artist).
 Admin account is premade.
 ### Amputee, Artist, Admin
+The 3 available accounts are: Amputee, Artist and Admin.
+Admin is a premade account (can change)
+Artist and Amputee can be registered manually.
 #### Login
 In order to do role-sepcific things, a login is needed.
 ### System
+Manages account removal.
 #### Remove registration
 After a request is declined or willingly canceled, a system deletes account.
 #### Notify about personal data removal
 After account gets deleted, a notification is sent to a former user in order to comply to GDPR.
 
 ## Contact module
+Contains info on contact info and means of contacting the admin.
 ### Guest
+Can be absolutely anyone who wandered in this section.
+Guest is the only role, because there is nothing configurable or visible explicitly to any role.
 #### View homepage
+Self explanatory- the page that anyone ends up first is homepage.
 #### View contacts
+Homepage includes contact info. Contact info has means of contacting the admin, contributing to the project.
 #### Contact
+Homepage has a contact button that you can click, which open contact form.
 
 ## Porfolio module
+Artist-specific artwork management.
 ### Guest
+Guest would be someone interested in art (pro or not) or someone interested in the charity idea.
 #### View artist portfolios
+Only published (of confirmed artists) profiles should be visible.
+It should have the 4 photos next to their name: one bigger one for prosthetic and 3 more others.
 ##### Filter portfolios
+Filter by artist name, latest artwork, latest artist. Descending and ascending.
 ##### View artists porfolio
+Clicking on a specific artist name or their artwork  should open their portfolio.
 ###### Get contact info
+Artist email and other links to their work. Also their description.
 ###### View highlight artwork
+Painted prosthetic should be the centerpiece of their portfolio.
 ###### View other art of portfolio
-###### View painted prosthetic
+General art should suround the painted prosthetic. 3+ other pictures.
+###### View artwork
+Clicking on artwork should zoom it in and then the usual functionality, 
+such as sharing or liking or downloading should be available.
 ### Artist
+Person to whom belongs the profile.
 #### Manage portfolio
+Entering a portfolio page as an artist will open their own profile.
 ##### Edit contact info
+All that is diplayed on their page, is editable. Each field has a save button (?)
 ##### Select main image
+Prosthetics image (the centerpiece) should be replacable by another prosthetics image.
 ##### Add image to portfolio
+Other artwork should be addable whenever artist feels like it. No limits.
+Private portfolios (not confirmed by admin) cannot have more than 4 images.*
 ##### Select top images
-
+The 3 visible images of their public profile can be changed however they want. No duplicates allowed.
+Disabled for private profile.*
+### System
+#### Create profile
+Creating an artist request automatically creates a private profile.
+#### Publish profile
+After admin approves artist request, the profile from private becomes public.
 
 
 
