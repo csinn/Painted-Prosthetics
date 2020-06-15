@@ -6,7 +6,7 @@ pool:
 
 variables:
   buildConfig: "Release" # Can either be "Release" or "Debug"
-  solution: "ReactDemo.sln"
+  solution: "PaintedProsthetics.sln"
   
 stages:
 - stage: InstallDependencies
@@ -25,15 +25,18 @@ stages:
   - job: 
     steps:
       - script: |
+          echo "Cloning Repository..."
           sudo git clone https://github.com/csinn/Painted-Prosthetics/ /paintedp/
 - stage: BuildThenUpload
   jobs:
   - job:
     steps: 
       - script: |
+          echo "Building Solution..."
           sudo cd /paintedp/
           sudo dotnet restore $(solution)
           sudo dotnet build -c $(buildConfig) -o $(Build.ArtifactStagingDirectory)/FinishedBuild $(solution)
+          echo "Uploading Solution Artifact..."
       # Publish artifacts to Azure
       - task: PublishPipelineArtifact@1
         inputs:
