@@ -17,6 +17,7 @@ stages:
 #          inputs:
 #            command: 'custom'
 #            custom: 'add package Microsoft.CSharp --version 4.7.0'
+        - task: NuGetToolInstaller@1
         - script: nuget install Microsoft.CSharp
         - task: DotNetCoreCLI@2
           inputs:
