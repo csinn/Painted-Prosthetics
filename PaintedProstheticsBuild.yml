@@ -2,7 +2,7 @@ trigger:
 - master
 
 pool:
-  vmImage: "macos-latest"
+  vmImage: "windows-latest"
 
 variables:
   buildConfig: "Release" # Can either be "Release" or "Debug"
