@@ -1,4 +1,7 @@
 # Painted-Prosthetics
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/929858ba7c91495facc4ecb6624d485c)](https://app.codacy.com/gh/csinn/Painted-Prosthetics?utm_source=github.com&utm_medium=referral&utm_content=csinn/Painted-Prosthetics&utm_campaign=Badge_Grade_Dashboard)
+
 ![No longer usable prosthetics painted on and auctioned as art](Docs/Images/Prosthetics2.PNG)
 ## Our mission
 Life can be unfair and we, the more fortunate people, aim to make it slightly more just.
