@@ -1,4 +1,5 @@
 trigger:
+
 - master
 
 pool:
@@ -18,11 +19,14 @@ stages:
             command: 'restore'
             projects: '$(solution)'
             feedsToUse: 'select'
-        - task: DotNetCoreCLI@2
+        - task: XamarinAndroid@1
           inputs:
-            command: 'build'
-            projects: '$(solution)'
-            arguments: '-c $(buildConfig) -o $(Build.ArtifactStagingDirectory)/FinishedBuild'
+            projectFile: 'PaintedProsthetics.Mobile.Client.slnf'
+            outputDirectory: '$(Build.ArtifactStagingDirectory)/FinishedBuild'
+            configuration: '$(buildConfig)'
+            msbuildArchitectureOption: 'x64'
+            jdkOption: 'JDKVersion'
+
 
         # Publish artifacts to Azure
         - task: PublishPipelineArtifact@1
