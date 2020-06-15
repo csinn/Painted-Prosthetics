@@ -1,5 +1,4 @@
 trigger:
-
 - master
 
 pool:
@@ -21,7 +20,7 @@ stages:
             feedsToUse: 'select'
         - task: XamarinAndroid@1
           inputs:
-            projectFile: 'PaintedProsthetics.Mobile.Client.slnf'
+            projectFile: '**/PaintedProsthetics.Mobile.Client.csproj'
             outputDirectory: '$(Build.ArtifactStagingDirectory)/FinishedBuild'
             configuration: '$(buildConfig)'
             msbuildArchitectureOption: 'x64'
