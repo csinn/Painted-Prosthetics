@@ -13,7 +13,6 @@ stages:
     jobs:
     - job:
       steps:
-        - script: dotnet add Src/Clients/PaintedProsthetics.Mobile.Client/PaintedProsthetics.Mobile.Client.csproj package Microsoft.CSharp
         - task: NuGetToolInstaller@1
         - script: nuget install Microsoft.CSharp
         - task: DotNetCoreCLI@2
