@@ -18,13 +18,12 @@ stages:
             command: 'restore'
             projects: '$(solution)'
             feedsToUse: 'select'
-        - task: XamarinAndroid@1
+        - task: DotNetCoreCLI@2
           inputs:
-            projectFile: '**/PaintedProsthetics.Mobile.Client.csproj'
-            outputDirectory: '$(Build.ArtifactStagingDirectory)/FinishedBuild'
-            configuration: '$(buildConfig)'
-            msbuildArchitectureOption: 'x64'
-            jdkOption: 'JDKVersion'
+            command: 'build'
+            projects: '$(solution)'
+            arguments: '-o $(Build.ArtifactStagingDirectory)/FinishedBuild -c $(BuildConfig)'
+            
 
 
         # Publish artifacts to Azure
