@@ -7,21 +7,23 @@ pool:
 variables:
   buildConfig: "Release" # Can either be "Release" or "Debug"
   solution: "PaintedProsthetics.sln"
+ 
 stages: 
   - stage: Build
     jobs:
     - job:
       steps: 
-        - task: VSBuild@1
-          inputs: 
-            solution: $(solution)
-            configuration: $(buildConfig)
-        - script: |
-            echo "Building Solution..."
-            sudo cd /paintedp/
-            sudo dotnet restore $(solution)
-            sudo dotnet build -c $(buildConfig) -o $(Build.ArtifactStagingDirectory)/FinishedBuild $(solution)
-            echo "Uploading Solution Artifact..."
+        - task: DotNetCoreCLI@2
+          inputs:
+            command: 'restore'
+            projects: '$(solution)'
+            feedsToUse: 'select'
+        - task: DotNetCoreCLI@2
+          inputs:
+            command: 'build'
+            projects: '$(solution)'
+            arguments: '-c $(buildConfig) -o $(Build.ArtifactStagingDirectory)/FinishedBuild'
+
         # Publish artifacts to Azure
         - task: PublishPipelineArtifact@1
           inputs:
