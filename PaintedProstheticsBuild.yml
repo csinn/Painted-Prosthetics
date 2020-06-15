@@ -12,7 +12,11 @@ stages:
   - stage: Build
     jobs:
     - job:
-      steps: 
+      steps:
+        - task: DotNetCoreCLI@2
+          inputs:
+            command: 'custom'
+            custom: 'add package Microsoft.CSharp --version 4.7.0'
         - task: DotNetCoreCLI@2
           inputs:
             command: 'restore'
