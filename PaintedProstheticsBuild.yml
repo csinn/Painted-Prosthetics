@@ -13,10 +13,7 @@ stages:
     jobs:
     - job:
       steps:
-#        - task: DotNetCoreCLI@2
-#          inputs:
-#            command: 'custom'
-#            custom: 'add package Microsoft.CSharp --version 4.7.0'
+        - script: dotnet add **/PaintedProsthetics.Mobile.Client.csproj package Microsoft.CSharp
         - task: NuGetToolInstaller@1
         - script: nuget install Microsoft.CSharp
         - task: DotNetCoreCLI@2
