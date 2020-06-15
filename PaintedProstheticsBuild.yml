@@ -1,0 +1,41 @@
+trigger:
+- master
+
+pool:
+  vmImage: "Ubuntu 18.04"
+
+variables:
+  buildConfig: "Release" # Can either be "Release" or "Debug"
+  solution: "ReactDemo.sln"
+  
+stages:
+- stage: InstallDependencies
+  jobs:
+    - job: 
+      steps:
+        - script: |
+            echo "Installing Git..."
+            sudo apt install -y git
+            echo "Installing .Net Runtime and SDK..."
+            sudo wget https://packages.microsoft.com/config/ubuntu/18.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb && sudo dpkg -i packages-microsoft-prod.deb
+            sudo apt install -y apt-transport-https dotnet-sdk-3.1 aspnetcore-runtime-3.1
+
+- stage: SetupRepository
+  jobs: 
+  - job: 
+    steps:
+      - script: |
+          sudo git clone https://github.com/csinn/Painted-Prosthetics/ /paintedp/
+- stage: BuildThenUpload
+  jobs:
+  - job:
+    steps: 
+      - script: |
+          sudo cd /paintedp/
+          sudo dotnet restore $(solution)
+          sudo dotnet build -c $(buildConfig) -o $(Build.ArtifactStagingDirectory)/FinishedBuild $(solution)
+      # Publish artifacts to Azure
+      - task: PublishPipelineArtifact@1
+        inputs:
+          targetPath: $(Build.ArtifactStagingDirectory)/FinishedBuild
+          artifactName: FinishedBuild
