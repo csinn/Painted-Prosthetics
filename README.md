@@ -29,7 +29,7 @@ Prosthetics are extremely expensive and every kind of help matters. If you are s
 
 ## Are you a developer and want to contribute?
 We need every kind of help we can get! The below is a link of how to get started with the project either as a backend or frontend developer. A detailed description of what you need to do in order to join can be found in the link below:  
-[Link to beginners guide]([TODO])
+[Link to beginners guide]([https://github.com/csinn/Painted-Prosthetics/wiki/New-Joiner])
 
 Would you like to know more about what are we making and why? Check out our wiki page:  
 [Painted Prosthetics Wiki](https://github.com/csinn/Painted-Prosthetics/wiki)
