@@ -7,33 +7,40 @@ pool:
 variables:
   BuildConfig: "Release" # Can either be "Release" or "Debug"
   Solution: "PaintedProsthetics.sln"
+  BuildMobile: false
  
 stages: 
   - stage: Build
     jobs:
-    - job:
+    - job: SetupEnv
       steps:
         - task: NuGetToolInstaller@1
         - script: nuget install Microsoft.CSharp
         - task: UseNode@1
           inputs:
             version: '12.x'
-
         - task: DotNetCoreCLI@2
           inputs:
             command: 'restore'
             projects: '$(Solution)'
             feedsToUse: 'select'
+        
+    - job: BuildNoMobile
+      steps:
         - task: PowerShell@2
+          condition: eq(variables.BuildMobile, false)
           inputs:
             targetType: 'inline'
             script: |
-              ((Get-ChildItem -Path .\ -Filter *.csproj -Recurse -File -Name) | Where-Object {$_ -notlike '*Mobile*' }) | ForEach-Object { dotnet build $_ -o $(Build.ArtifactStagingDirectory)/FinishedBuild -c $(BuildConfig)}  
-#        - task: DotNetCoreCLI@2
-#          inputs:
-#            command: 'build'
-#            projects: '$(Solution)'
-#            arguments: '-o $(Build.ArtifactStagingDirectory)/FinishedBuild -c $(BuildConfig)'
+              ((Get-ChildItem -Path .\ -Filter *.csproj -Recurse -File -Name) | Where-Object {$_ -notlike '*Mobile*' }) | ForEach-Object { dotnet build $_ -o $(Build.ArtifactStagingDirectory)/FinishedBuild -c $(BuildConfig)}
+    - job: BuildMobile
+      steps:
+        - task: DotNetCoreCLI@2
+          condition: eq(variables.BuildMobile, true)
+          inputs:
+            command: 'build'
+            projects: '$(Solution)'
+            arguments: '-o $(Build.ArtifactStagingDirectory)/FinishedBuild -c $(BuildConfig)'
 
         # Publish artifacts to Azure
         - task: PublishPipelineArtifact@1
