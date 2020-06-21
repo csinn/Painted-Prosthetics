@@ -43,6 +43,8 @@ stages:
             arguments: '-o $(Build.ArtifactStagingDirectory)/FinishedBuild -c $(BuildConfig)'
 
         # Publish artifacts to Azure
+    - job: PublishToAzure
+      steps:
         - task: PublishPipelineArtifact@1
           inputs:
             targetPath: $(Build.ArtifactStagingDirectory)/FinishedBuild
