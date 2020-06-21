@@ -26,6 +26,7 @@ stages:
             feedsToUse: 'select'
         
     - job: BuildNoMobile
+      dependsOn: SetupEnv
       steps:
         - task: PowerShell@2
           condition: eq(variables.BuildMobile, false)
@@ -34,12 +35,13 @@ stages:
             script: |
               ((Get-ChildItem -Path .\ -Filter *.csproj -Recurse -File -Name) | Where-Object {$_ -notlike '*Mobile*' }) | ForEach-Object { dotnet build $_ -o $(Build.ArtifactStagingDirectory)/FinishedBuild -c $(BuildConfig)}
         - task: PublishPipelineArtifact@1
-          condition: succeeded()
+          condition: and(succeeded(), eq(variables.BuildMobile, false))
           inputs:
             targetPath: $(Build.ArtifactStagingDirectory)/FinishedBuild
             artifactName: FinishedBuild
     - job: BuildMobile
       steps:
+        - script: 
         - task: DotNetCoreCLI@2
           condition: eq(variables.BuildMobile, true)
           inputs:
@@ -47,7 +49,7 @@ stages:
             projects: '$(Solution)'
             arguments: '-o $(Build.ArtifactStagingDirectory)/FinishedBuild -c $(BuildConfig)'
         - task: PublishPipelineArtifact@1
-          condition: succeeded()
+          condition: and(succeeded(), eq(variables.BuildMobile, true))
           inputs:
             targetPath: $(Build.ArtifactStagingDirectory)/FinishedBuild
             artifactName: FinishedBuild
