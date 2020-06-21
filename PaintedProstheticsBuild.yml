@@ -17,7 +17,7 @@ stages:
         - script: nuget install Microsoft.CSharp
         - task: UseNode@1
           inputs:
-            version: '12.11.6'
+            version: '12.x'
 
         - task: DotNetCoreCLI@2
           inputs:
