@@ -33,6 +33,11 @@ stages:
             targetType: 'inline'
             script: |
               ((Get-ChildItem -Path .\ -Filter *.csproj -Recurse -File -Name) | Where-Object {$_ -notlike '*Mobile*' }) | ForEach-Object { dotnet build $_ -o $(Build.ArtifactStagingDirectory)/FinishedBuild -c $(BuildConfig)}
+        - task: PublishPipelineArtifact@1
+          condition: succeeded()
+          inputs:
+            targetPath: $(Build.ArtifactStagingDirectory)/FinishedBuild
+            artifactName: FinishedBuild
     - job: BuildMobile
       steps:
         - task: DotNetCoreCLI@2
@@ -41,11 +46,9 @@ stages:
             command: 'build'
             projects: '$(Solution)'
             arguments: '-o $(Build.ArtifactStagingDirectory)/FinishedBuild -c $(BuildConfig)'
-
-        # Publish artifacts to Azure
-    - job: PublishToAzure
-      steps:
         - task: PublishPipelineArtifact@1
+          condition: succeeded()
           inputs:
             targetPath: $(Build.ArtifactStagingDirectory)/FinishedBuild
             artifactName: FinishedBuild
+
