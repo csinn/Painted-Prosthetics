@@ -40,6 +40,7 @@ stages:
             targetPath: $(Build.ArtifactStagingDirectory)/FinishedBuild
             artifactName: FinishedBuild
     - job: BuildMobile
+      dependsOn: SetupEnv
       steps:
         - script: 
         - task: DotNetCoreCLI@2
