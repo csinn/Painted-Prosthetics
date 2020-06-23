@@ -53,5 +53,9 @@ stages:
           condition: and(succeeded(), eq(variables.BuildMobile, true))
           inputs:
             targetPath: $(Build.ArtifactStagingDirectory)/FinishedBuild
+<<<<<<< Updated upstream
             artifactName: FinishedBuild
 
+=======
+            artifactName: FinishedBuild
+>>>>>>> Stashed changes
