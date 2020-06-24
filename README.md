@@ -1,7 +1,10 @@
 # Painted-Prosthetics
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/929858ba7c91495facc4ecb6624d485c)](https://app.codacy.com/gh/csinn/Painted-Prosthetics?utm_source=github.com&utm_medium=referral&utm_content=csinn/Painted-Prosthetics&utm_campaign=Badge_Grade_Dashboard)
- [![Build Status](https://dev.azure.com/mcroolz4ever/PaintedProsthetics/_apis/build/status/csinn.Painted-Prosthetics?branchName=master)](https://dev.azure.com/mcroolz4ever/PaintedProsthetics/_build/latest?definitionId=4&branchName=master)
+
+[![Build Status](https://dev.azure.com/mcroolz4ever/PaintedProsthetics/_apis/build/status/csinn.Painted-Prosthetics?branchName=master)](https://dev.azure.com/mcroolz4ever/PaintedProsthetics/_build/latest?definitionId=4&branchName=master)
+
+
 
 ![No longer usable prosthetics painted on and auctioned as art](Docs/Images/Prosthetics2.PNG)
 ## Our mission
@@ -30,7 +33,7 @@ Prosthetics are extremely expensive and every kind of help matters. If you are s
 
 ## Are you a developer and want to contribute?
 We need every kind of help we can get! The below is a link of how to get started with the project either as a backend or frontend developer. A detailed description of what you need to do in order to join can be found in the link below:  
-[Link to beginners guide]([TODO])
+[Link to beginners guide](https://github.com/csinn/Painted-Prosthetics/wiki/New-Joiner)
 
 Would you like to know more about what are we making and why? Check out our wiki page:  
 [Painted Prosthetics Wiki](https://github.com/csinn/Painted-Prosthetics/wiki)
