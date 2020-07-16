@@ -1,4 +1,4 @@
-# pp-frontend
+# vue-client
 
 ## Project setup
 ```
