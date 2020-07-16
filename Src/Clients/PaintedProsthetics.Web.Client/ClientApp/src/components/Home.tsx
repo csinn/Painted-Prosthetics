@@ -1,8 +1,10 @@
 import * as React from 'react';
 import { connect } from 'react-redux';
+import Navbar from './Navbar';
 
 const Home = () => (
   <div>
+    <Navbar />
     <h1>Hello, world!</h1>
     <p>Welcome to your new single-page application, built with:</p>
     <ul>
