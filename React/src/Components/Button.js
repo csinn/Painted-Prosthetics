@@ -1,5 +1,6 @@
 import React from 'react'
 import './Button.css'
+import { Link } from "react-router-dom";
 
 export const Button = ({
     children,
@@ -7,11 +8,11 @@ export const Button = ({
     onClick,
 }) => {
     return(
-        <button 
-            className={'btn btn--primary btn--medium'} 
+        <Link to='/login'
+            className={'btn btn--primary btn--medium desktop-only'} 
             onClick = {onClick}
             type= {type}
             >
-            {children}</button>
+            {children}</Link>
     )
 }

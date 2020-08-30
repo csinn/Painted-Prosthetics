@@ -2,12 +2,17 @@ import React, { Component } from 'react';
 import { MenuItems } from "./MenuItems"
 import { Button } from "../Button"
 import './Navbar.css'
+import { Link } from "react-router-dom";
 
 class Navbar extends Component {
     state = { clicked: false }
 
     handleClick = () => {
         this.setState({ clicked: !this.state.clicked })
+    }
+
+    closeMobileMenu = () => {
+        this.setState({ clicked: false })
     }
 
     render() {
@@ -23,13 +28,15 @@ class Navbar extends Component {
                     {MenuItems.map((item, index) => {
                         return(
                             <li key={index}>
-                                <a className={item.cName} href={item.url}>
+                                <Link to={item.url}
+                                    className={item.cName}
+                                    onClick={this.closeMobileMenu}
+                                >
                                     {item.title}
-                                </a>
+                                </Link>
                             </li>
                         )
                     })}
-                    
                 </ul>
                 <Button>Login</Button>
             </nav>
