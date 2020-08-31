@@ -9,10 +9,12 @@
     outline: none;
     border: none;
     cursor: pointer;
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
 }
 
 .btn:hover {
-    padding: 8px 20px;
     transition: all 0.3s ease-out;
     background: #FF4848;
     color: Black;

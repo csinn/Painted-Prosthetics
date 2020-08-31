@@ -6,7 +6,7 @@ import { BrowserRouter as Router,
   Switch,
   Route
 } from "react-router-dom";
-import Home from './Components/Home/Home'
+import Login from './Components/Login/Login'
 import Gallery from './Components/Gallery/Gallery'
 import About from './Components/About/About'
 import Donate from './Components/Donate/Donate'
@@ -17,12 +17,6 @@ function App() {
       <div className="App">
         <Navbar />
         <Switch>
-          <Route path="/home">
-            <Home />
-          </Route>
-          <Route path="/gallery">
-            <Gallery />
-          </Route>
           <Route path="/about">
             <About />
           </Route>
@@ -32,6 +26,9 @@ function App() {
           <Route path="/login">
             <Login />
           </Route>
+          <Route path="/">
+            <Gallery />
+          </Route>
         </Switch>
       <Footer />
       </div>
@@ -39,10 +36,4 @@ function App() {
   );
 }
 
-function Login() 
-{
-  return <div>
-    <h1>Login</h1>
-  </div>
-}
 export default App;
