@@ -21,8 +21,29 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="ClientApp\src\components\Button.tsx" />
+    <None Remove="ClientApp\src\components\Footer.tsx" />
+    <None Remove="ClientApp\src\components\Navbar\MenuItems.tsx" />
+    <None Remove="ClientApp\src\components\Navbar\Navbar.tsx" />
+    <None Remove="ClientApp\src\pages\about.tsx" />
+    <None Remove="ClientApp\src\pages\donate.tsx" />
+    <None Remove="ClientApp\src\pages\gallery.tsx" />
+    <None Remove="ClientApp\src\pages\login.tsx" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\..\Common\PaintedProsthetics.Validation\PaintedProsthetics.Validation.csproj" />
     <ProjectReference Include="..\PaintedProsthetics.Web.Api.Client\PaintedProsthetics.Web.Api.Client.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <TypeScriptCompile Include="ClientApp\src\components\Footer.tsx" />
+    <TypeScriptCompile Include="ClientApp\src\components\Navbar\MenuItems.tsx" />
+    <TypeScriptCompile Include="ClientApp\src\components\Navbar\Navbar.tsx" />
+    <TypeScriptCompile Include="ClientApp\src\pages\about.tsx" />
+    <TypeScriptCompile Include="ClientApp\src\pages\donate.tsx" />
+    <TypeScriptCompile Include="ClientApp\src\pages\gallery.tsx" />
+    <TypeScriptCompile Include="ClientApp\src\pages\login.tsx" />
   </ItemGroup>
 
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">

@@ -1,0 +1,19 @@
+﻿.link-csinn {
+    background: Black;
+    justify-self: start;
+    width: 100%;
+    cursor: pointer;
+    bottom: 0px;
+}
+
+.created-by {
+    margin-left: 47%;
+}
+
+.CSINN {
+    flex: 1;
+    margin-top: 1px;
+    width: 20px;
+    height: 20px;
+    size: 'contain';
+}

@@ -1,9 +1,9 @@
 {
-  "short_name": "PaintedProsthetics.Web.Client",
-  "name": "PaintedProsthetics.Web.Client",
+  "short_name": "PaintedProsthetics",
+  "name": "PaintedProsthetics",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "PPLogo.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     }
