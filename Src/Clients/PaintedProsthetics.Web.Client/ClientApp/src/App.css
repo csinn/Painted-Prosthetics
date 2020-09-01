@@ -5,6 +5,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+html, body {
+    height: 100%;
+}
+
 .home-container {
     object-fit: cover;
     background: white center/cover;

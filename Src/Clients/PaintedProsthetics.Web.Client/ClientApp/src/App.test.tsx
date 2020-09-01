@@ -1,7 +1,5 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import { Provider } from 'react-redux';
-import { MemoryRouter } from 'react-router-dom';
 import App from './App';
 
 it('renders without crashing', () => {
@@ -14,9 +12,6 @@ it('renders without crashing', () => {
     const store = storeFake({}) as any;
 
     ReactDOM.render(
-        <Provider store={store}>
-            <MemoryRouter>
-                <App/>
-            </MemoryRouter>
-        </Provider>, document.createElement('div'));
+        <App />,
+        document.createElement('div'));
 });

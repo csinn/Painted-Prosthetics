@@ -21,13 +21,13 @@ var Footer = /** @class */ (function (_super) {
         return _super !== null && _super.apply(this, arguments) || this;
     }
     Footer.prototype.render = function () {
-        return (React.createElement("div", { className: "link-csinn" },
+        return (React.createElement("div", { className: "footer-container" },
             React.createElement("a", { href: "https://github.com/csinn", target: "_blank", rel: "noopener noreferrer" },
                 React.createElement("p", { className: 'created-by' },
                     "Created By: ",
                     React.createElement("img", { className: 'CSINN', src: '/47311935.png', alt: '' })))));
     };
     return Footer;
-}(React.PureComponent));
+}(React.Component));
 exports.default = Footer;
 //# sourceMappingURL=Footer.js.map
