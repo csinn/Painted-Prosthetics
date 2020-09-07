@@ -14,6 +14,7 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = require("react");
+var Image_Gallery_1 = require("../components/Image-Gallery");
 var Gallery = /** @class */ (function (_super) {
     __extends(Gallery, _super);
     function Gallery() {
@@ -23,7 +24,8 @@ var Gallery = /** @class */ (function (_super) {
         return (React.createElement("div", { className: 'home-container' },
             React.createElement("div", { className: 'text-container' },
                 React.createElement("h1", { className: 'title' }, "Gallery"),
-                React.createElement("p", { className: 'title-text' }, "galery items"))));
+                React.createElement("p", { className: 'title-text' }, "galery items"),
+                React.createElement(Image_Gallery_1.default, null))));
     };
     return Gallery;
 }(React.PureComponent));
