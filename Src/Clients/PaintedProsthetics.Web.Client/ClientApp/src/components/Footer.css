@@ -4,6 +4,7 @@
     width: 100%;
     cursor: pointer;
     bottom: 0px;
+    position: absolute;
 }
 
 .created-by {

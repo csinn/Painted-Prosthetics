@@ -5,15 +5,23 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+#root {
+    min-height: 100vh;
+    position: relative;
+}
+
 html, body {
     height: 100%;
+}
+
+.App {
+    padding-bottom: 24px;
 }
 
 .home-container {
     object-fit: cover;
     background: white center/cover;
     width: 100%;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
