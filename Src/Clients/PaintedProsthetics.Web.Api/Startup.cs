@@ -23,7 +23,6 @@ namespace PaintedProsthetics.Web.Api
         {
             services.AddDbContext<ImagesContext>(opt =>
                opt.UseSqlServer(Configuration.GetConnectionString("ImagesContext")));
-            services.AddScoped<ImagesController>();
             services.AddControllers();
         }
 
