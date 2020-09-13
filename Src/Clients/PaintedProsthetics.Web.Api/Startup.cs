@@ -3,6 +3,9 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.EntityFrameworkCore;
+using PaintedProsthetics.Web.Api.Helpers;
+using PaintedProsthetics.Web.Api.Controllers;
 
 namespace PaintedProsthetics.Web.Api
 {
@@ -18,6 +21,9 @@ namespace PaintedProsthetics.Web.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<ImagesContext>(opt =>
+               opt.UseSqlServer(Configuration.GetConnectionString("ImagesContext")));
+            services.AddScoped<ImagesController>();
             services.AddControllers();
         }
 

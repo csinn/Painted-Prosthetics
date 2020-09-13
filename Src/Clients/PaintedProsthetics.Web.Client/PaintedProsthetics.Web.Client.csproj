@@ -34,6 +34,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\Common\PaintedProsthetics.Validation\PaintedProsthetics.Validation.csproj" />
     <ProjectReference Include="..\PaintedProsthetics.Web.Api.Client\PaintedProsthetics.Web.Api.Client.csproj" />
+    <ProjectReference Include="..\PaintedProsthetics.Web.Api\PaintedProsthetics.Web.Api.csproj" />
   </ItemGroup>
 
   <ItemGroup>
