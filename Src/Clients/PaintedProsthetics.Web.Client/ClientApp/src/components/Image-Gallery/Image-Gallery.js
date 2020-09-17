@@ -13,7 +13,7 @@ export default class ImageGallery extends React.Component {
         }
     }
     componentDidMount() {
-        fetch(config.apiUrl + "/api/Images", { mode: 'no-cors' })
+        fetch(config.apiUrl + "/api/Images")
             .then(res => res.json())
             .then((data) => {
                 this.setState({ images: data });
