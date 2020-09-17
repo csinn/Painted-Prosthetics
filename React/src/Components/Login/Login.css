@@ -1,0 +1,25 @@
+
+.home-container {
+    object-fit: cover;
+    background: white center/cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    object-fit: contain;
+}
+
+.text-container {
+    text-align: center;
+    border-radius: 4px;
+    background: white;
+    margin-top: 20px;
+    margin-left: 5px;
+    width: 90% ;
+    height: 90%;
+}
+
+.home-container > p {
+    align-self: center;
+}
