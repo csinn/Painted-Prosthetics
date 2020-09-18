@@ -12,14 +12,20 @@ export default class ImageGallery extends React.Component {
             clicked: true
         }
     }
-    componentDidMount() {
-        fetch(config.apiUrl + "/api/Images")
-            .then(res => res.json())
-            .then((data) => {
-                this.setState({ images: data });
-                { console.log(data) }
+
+    componentDidMount()
+    {
+        fetch(config.apiUrl + "/api/Images",
+            {
+                method: 'GET'
             })
-            .catch(console.log)
+            .then(res => res.json())
+        .then((data) =>
+        {
+            this.setState({ images: data });
+            { console.log(data) }
+        })
+        .catch(console.log)
     }
     
     onClickItemEvent() {
@@ -33,9 +39,9 @@ export default class ImageGallery extends React.Component {
         
         const images_list = this.state.images.map( (element) => {
             return (
-                <div>
-                    <img src={element.ImageUrl} />
-                    <p className={this.state.clicked ? 'legend': "legend-hide"} >{element.Title}</p>
+                <div key={element.id}>
+                    <img src={element.imageUrl} />
+                    <p className={this.state.clicked ? 'legend' : "legend-hide"} >{element.title}</p>
                 </div>
             );
         });
