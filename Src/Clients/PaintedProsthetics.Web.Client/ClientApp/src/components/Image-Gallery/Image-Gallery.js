@@ -2,14 +2,30 @@ import * as React from "react";
 import "./carousel.css";
 import { Carousel } from "react-responsive-carousel";
 import images from "./GalleryImages";
+import { config } from "../../Helpers/config"
 
 export default class ImageGallery extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            images : images,
+            images : [],
             clicked: true
         }
+    }
+
+    componentDidMount()
+    {
+        fetch(config.apiUrl + "/api/Images",
+            {
+                method: 'GET'
+            })
+            .then(res => res.json())
+        .then((data) =>
+        {
+            this.setState({ images: data });
+            { console.log(data) }
+        })
+        .catch(console.log)
     }
     
     onClickItemEvent() {
@@ -23,9 +39,9 @@ export default class ImageGallery extends React.Component {
         
         const images_list = this.state.images.map( (element) => {
             return (
-                <div>
-                    <img src={element.ImageUrl} />
-                    <p className={this.state.clicked ? 'legend': "legend-hide"} >{element.Title}</p>
+                <div key={element.id}>
+                    <img src={element.imageUrl} />
+                    <p className={this.state.clicked ? 'legend' : "legend-hide"} >{element.title}</p>
                 </div>
             );
         });
